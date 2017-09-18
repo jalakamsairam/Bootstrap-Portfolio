@@ -3,7 +3,7 @@
   <head>
     <title>bootstrap Warm Up</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
     <nav class = "navbar navbar-default">
@@ -12,9 +12,9 @@
           <a class="navbar-brand" id ="navbartext" href="#">Sairam Jalakam</a>
         </div>
   <ul class="nav navbar-nav navbar-right customnav">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li id = "contactinfo"><a href="#" >Contact</a></li>
+    <li><a href="index.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li id = "contactinfo"><a href="contact.html" >Contact</a></li>
       </ul>    
       <div>
     </nav>
@@ -25,31 +25,37 @@
           <div class ="col-lg-8" id= "aboutmeDiv">
             <div class ="row">
               <h1 id ="aboutMeHeading">My Portfolio</h1>
+
               <hr>
             </div>
           <div class = "row"> 
-            <div class = "col-lg-6" id = "image1"> 
-              <img class = "img-responsive center-block" src = " http://placehold.it/200x200">
-               <!--  <section><h3> Game of thrones</h3></section> -->
+            <div class = "col-lg-6  col-xs-6 image"> 
+              <img class = "img-responsive center-block customimg" src = "https://pbs.twimg.com/profile_images/867070777878859777/MtfeEkqy.jpg"style = " height: 200px; width: 200px;">
+                <section><h2 class = "imageheading"> Game of thrones</h3></section>
             </div>
-            <div class = "col-lg-6" id = "image2"> 
-              <img class = "img-responsive center-block" src = "http://placehold.it/200x200 ">
-            </div>
-          </div>
-          <div class = "row"> 
-            <div class = "col-lg-6" id = "image3"> 
-              <img class = "img-responsive center-block" src = " http://placehold.it/200x200" >
-            </div>
-            <div class = "col-lg-6" id = "image4"> 
-              <img class = "img-responsive center-block" src = "http://placehold.it/200x200 ">
+            <div class = "col-lg-6 col-xs-6  image"> 
+              <img class = "img-responsive center-block customimg" src = "http://i.dailymail.co.uk/i/pix/2017/01/03/22/3BCF804D00000578-4085544-image-m-24_1483480871214.jpg " style = " height: 200px; width: 200px;">
+            <section><h2 class = "imageheading center-block "> Tennis Pro</section>
             </div>
           </div>
           <div class = "row"> 
-            <div class = "col-lg-6" id = "image5"> 
-              <img class = "img-responsive center-block" src = " http://placehold.it/200x200" >
+            <div class = "col-lg-6 col-xs-6 image"> 
+              <img class = "img-responsive center-block customimg" src = " https://www.callofduty.com/content/dam/atvi/callofduty/wwii/home/Stronghold_Metadata_Image.jpg" style = " height: 200px; width: 200px;">
+              <section><h2 class = "imageheading ">call of duty</h3></section>
             </div>
-            <div class = "col-lg-6" id = "image6"> 
-              <img class = "img-responsive center-block" src = "http://placehold.it/200x200 ">
+            <div class = "col-lg-6  col-xs-6 image"> 
+              <img class = "img-responsive center-block customimg" src = "https://vignette.wikia.nocookie.net/house-of-cards/images/b/b6/House_of_Cards_main_characters.jpg/revision/latest/scale-to-width-down/640?cb=20130818190052" style = " height: 200px; width: 200px;">
+              <section><h2 class = "imageheading">house of cards</h3></section>
+            </div>
+          </div>
+          <div class = "row"> 
+            <div class = "col-lg-6 col-xs-6 image"> 
+              <img class = "img-responsive center-block customimg" src = "http://moheban-ahlebeit.com/images/Narcos-Wallpapers/Narcos-Wallpapers-6.jpg" style = " height: 200px; width: 200px;" >
+              <section><h2 class = "imageheading ">Narcos</h3></section>
+            </div>
+            <div class = "col-lg-6  col-xs-6 image"> 
+              <img class = "img-responsive center-block customimg" src = "http://cdn.hbowatch.com/wp-content/uploads/2016/12/BallersArt.jpg " style = " height: 200px; width: 200px;">
+              <section><h2 class = "imageheading">ballers</h3></section>
             </div>
           </div>
         </div>
@@ -58,14 +64,14 @@
             <div class="panel panel-primary">
               <div class = "panel-heading" >Connect With Me</div>
               <div class="panel-body">
-                <div class = "col-lg-4">
-                <img class = "img-responsive" src ="assets/github.png">
+                <div class = "col-lg-4"><a href = "https://github.com/jalakamsairam"target="_blank">
+                <img class = "img-responsive" src ="assets/images/github.png"></a>
                 </div>
-                <div class = "col-lg-4">
-                <img class = "img-responsive" src ="assets/linkedin.png">
+                <div class = "col-lg-4"><a href = "https://www.linkedin.com/in/sairamjalakam/" target="_blank">
+                <img class = "img-responsive" src ="assets/images/linkedin.png"></a>
                 </div>
-                <div class = "col-lg-4">
-                <img class = "img-responsive" src ="assets/stackoverflow.png">
+                <div class = "col-lg-4"><a href = "https://stackoverflow.com/users/8502882/sairam-jalakam" target = "_blank">
+                <img class = "img-responsive" src ="assets/images/stackoverflow.png"></a>
                 </div>
               </div>
               
